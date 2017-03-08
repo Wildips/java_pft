@@ -1,4 +1,4 @@
-package ru.pft.adressbook;
+package ru.pft.adressbook.model;
 
 public class GroupData {
   private final String name;
