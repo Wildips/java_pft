@@ -1,7 +1,6 @@
 package ru.pft.adressbook.appmanager;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
@@ -21,7 +20,7 @@ public void fillContactForm(ContactData  contactData, boolean creation) {
   type(By.name("lastname"), contactData.getSecondname());
 
   if (creation){
-    new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGruop());
+    new Select(wd.findElement(By.name("new_group"))).selectByVisibleText(contactData.getGroup());
   } else {
     Assert.assertFalse(isElementPresent(By.name("new_group")));
   }

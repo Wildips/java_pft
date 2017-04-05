@@ -7,12 +7,12 @@ public class ContactData {
 
   private final String firstname;
   private final String secondname;
-  private String gruop;
+  private String group;
 
   public ContactData(String firstname, String secondname, String gruop){
     this.firstname = firstname;
     this.secondname = secondname;
-    this.gruop = gruop;
+    this.group = group;
   }
 
   public String getFirstname(){
@@ -23,7 +23,7 @@ public class ContactData {
     return secondname;
   }
 
-  public String getGruop() {
-    return gruop;
+  public String getGroup() {
+    return group;
   }
 }
