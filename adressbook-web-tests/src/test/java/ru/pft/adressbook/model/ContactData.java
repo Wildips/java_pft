@@ -9,13 +9,13 @@ public class ContactData {
   private final String secondname;
   private String group;
 
-  public ContactData(String firstname, String secondname, String gruop){
+  public ContactData(String firstname, String secondname, String gruop) {
     this.firstname = firstname;
     this.secondname = secondname;
     this.group = group;
   }
 
-  public String getFirstname(){
+  public String getFirstname() {
     return firstname;
   }
 

@@ -9,10 +9,10 @@ import ru.pft.adressbook.model.ContactData;
 public class ContactModidficationTests extends TestBase {
 
   @Test
-  public void testContactModidfication(){
+  public void testContactModidfication() {
     app.getNavigationHelper().gotoHomePage();
     app.getContactHelper().initContactModification();
-    app.getContactHelper().fillContactForm(new ContactData("test_name" , "test_surename", null), false);
+    app.getContactHelper().fillContactForm(new ContactData("test_name", "test_surename", null), false);
     app.getContactHelper().submitContctModification();
     app.getContactHelper().returnHomePage();
   }

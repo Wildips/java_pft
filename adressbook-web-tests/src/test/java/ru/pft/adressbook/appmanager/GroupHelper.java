@@ -8,7 +8,7 @@ import ru.pft.adressbook.model.GroupData;
 /**
  * Created by Солнышко on 08.03.2017.
  */
-public class GroupHelper extends HelperBase{
+public class GroupHelper extends HelperBase {
 
   public GroupHelper(WebDriver wd) {
     super(wd);
